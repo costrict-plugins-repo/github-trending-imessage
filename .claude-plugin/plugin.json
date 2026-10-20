@@ -1,0 +1,13 @@
+{
+  "name": "imessage",
+  "description": "iMessage messaging bridge powered by Linq with built-in access control. Manage pairing, allowlists, and policy via /imessage:access.",
+  "version": "0.2.0",
+  "keywords": ["imessage", "sms", "messaging", "linq", "channel", "mcp"],
+  "author": {
+    "name": "Linq",
+    "url": "https://linqapp.com"
+  },
+  "homepage": "https://github.com/linq-team/claude-code-imessage-channel",
+  "repository": "https://github.com/linq-team/claude-code-imessage-channel",
+  "license": "MIT"
+}

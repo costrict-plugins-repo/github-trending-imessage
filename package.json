@@ -1,0 +1,27 @@
+{
+  "name": "claude-code-imessage-channel",
+  "version": "0.2.0",
+  "description": "iMessage messaging bridge powered by Linq with built-in access control. Manage pairing, allowlists, and policy via /imessage:access.",
+  "type": "module",
+  "main": "dist/channel.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm install --no-summary && npx tsc && node dist/channel.js"
+  },
+  "dependencies": {
+    "@linqapp/sdk": "^0.12.2",
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linq-team/claude-code-imessage-channel.git"
+  }
+}
